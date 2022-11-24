@@ -19,12 +19,6 @@ let person3 = {
 }
 
 
-// for (const key in person3) {
-//     if (person3.hasOwnProperty(key)) {
-//         console.log(`${key}: ${person3[key]}`)
-//     }
-// }
-
 function food_parse(obj) {
     for (let i = 0; i < Object.keys(obj).length; i++) {
         console.log(`Favorite ${Object.keys(obj)[i]}:`)
